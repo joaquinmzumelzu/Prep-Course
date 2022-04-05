@@ -18,7 +18,7 @@ const nuevaResta = 10 - 5 === 5;
 const nuevaMultiplicacion = 10 * 4 === 40 ;
 
 // Resuelve el siguiente problema matemático:
-const nuevoModulo = 21 % 5 === 1.05;
+const nuevoModulo = 21 % 5 === 1 ;
 
 
 // En los próximos 22 problemas, deberás completar la función.
@@ -65,9 +65,7 @@ function sonIguales(x, y) {
   if(x == y){
     return true;
   }
-  else(){
-    return false;
-  }
+  return false;
 }
 
 function tienenMismaLongitud(str1, str2) {
@@ -103,7 +101,7 @@ function mayorQueCincuenta(num) {
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  x % y;
+  return x % y;
 }
 
 function esPar(num) {
@@ -148,15 +146,13 @@ function elevar(num, exponent) {
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
-  Math.round(num);
-  return num;
+  return Math.round(num);
 }
 
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
-  Math.ceil(num);
-  return num;
+  return Math.ceil(num);
 }
 
 function numeroRandom() {
@@ -203,7 +199,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  nombre = "Hola " + nombre + "!";
+  return "Hola " + nombre + "!";
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
@@ -223,7 +219,7 @@ function retornarPerimetro(lado){
 function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
-  var areatriangulo = (base*altura)/2;
+  return (base*altura)/2;
 }
 
 
@@ -232,7 +228,7 @@ function deEuroAdolar(euro){
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
   
-  var dolar = euro * 1.20;
+  return euro * 1.20;
   
 }
 
